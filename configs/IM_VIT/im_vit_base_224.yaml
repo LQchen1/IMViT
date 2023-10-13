@@ -1,0 +1,15 @@
+MODEL:
+  TYPE: im_vit
+  NAME: im_vit_base_2244
+  DROP_PATH_RATE: 0.2
+  IMVIT:
+    MLP_RATIO: 4.
+    EMBED_DIM: 384
+    DEPTHS: 12 
+    NUM_HEADS: 12
+    PATCH_SIZE: [4,8,16,32]
+    CONV_CHANNEL: 16
+    SCOPE: [1,4,7]
+TRAIN:
+  EPOCHS: 300
+  WARMUP_EPOCHS: 20
