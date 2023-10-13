@@ -6,9 +6,9 @@ This folder contains the implementation of the IMViT for image classification.
 
 | name | pretrain | resolution |acc@1 | acc@5 | #params | FLOPs | Throughput | 1K model |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
-| IMViT-T | ImageNet-1K | 224x224 | 73.2 | 91.5 | 3.9M | 0.7G | 1680 | [github](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_tiny_patch4_window7_224.pth) |
-| IMViT-S | ImageNet-1K | 224x224 | 79.8 | 95.0 | 9.8M | 1.8G | 1469 | [github](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_small_patch4_window7_224.pth) |
-| IMViT-B | ImageNet-1K | 224x224 | 82.8 | 96.2 | 25.7M | 4.9G | 1177  | [github](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224.pth) |
+| IMViT-T | ImageNet-1K | 224x224 | 73.2 | 91.5 | 3.9M | 0.7G | 1680 | [github](https://github.com/LQchen1/IMViT/releases/download/v1.0.0/IMViT-tiny.pth) |
+| IMViT-S | ImageNet-1K | 224x224 | 79.8 | 95.0 | 9.8M | 1.8G | 1469 | [github](https://github.com/LQchen1/IMViT/releases/download/v1.0.0/IMViT-small.pth) |
+| IMViT-B | ImageNet-1K | 224x224 | 82.8 | 96.2 | 25.7M | 4.9G | 1177  | [github](https://github.com/LQchen1/IMViT/releases/download/v1.0.0/IMViT-base.pth) |
 
 ## Usage
 
