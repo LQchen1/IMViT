@@ -57,11 +57,7 @@ pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp
 pip install opencv-python==4.4.0.46 termcolor==1.1.0 yacs==0.1.8 pyyaml scipy
 ```
 
-- Install fused window process for acceleration, activated by passing `--fused_window_process` in the running script
-```bash
-cd kernels/window_process
-python setup.py install #--user
-```
+
 
 ### Data preparation
 
